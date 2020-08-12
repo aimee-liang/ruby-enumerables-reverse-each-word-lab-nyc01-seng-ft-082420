@@ -1,4 +1,4 @@
-def reverse_each_word(message)
+def reverse_each_word(string)
   new_message = message.split("")
   reversed_message = []
   new_message.each do |message|
